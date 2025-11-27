@@ -17,7 +17,6 @@ public class ErrorValidationTest extends BaseTest{
 	@Test (groups="Error Handling",retryAnalyzer = Retry.class)
 	public void logInError() throws IOException{
 
-		//ngrok Test
 
 		String wrongEmailId = "anything@gmail.com";
 		String wrongPass = "something";
