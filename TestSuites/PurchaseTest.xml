@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+	<listeners>
+		<listener class-name="framework.testcomponents.Listeners"/>
+	</listeners>
+	<groups>
+		<run>
+			<include name="Purchase" />
+		</run>
+	</groups>
+	<test thread-count="5" name="Submit Order Test">
+		<classes>
+			<class name="framework.tests.SubmitOrderTest" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Error Validation Test">
+		<classes>
+			<class name="framework.tests.ErrorValidationTest" />
+		</classes>
+	</test>
+</suite> 
